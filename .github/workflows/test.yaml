@@ -36,3 +36,5 @@ jobs:
         run: |
           export PATH="$PATH:$HOME/.local/bin"
           make test
+          du -hs $HOME/.stack/*
+          ls -las $HOME/.stack/*
